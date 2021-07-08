@@ -1,8 +1,10 @@
 <template>
     <header class="bg-dark">
         <div class="container-lg">
-            <div class="col-2 py-3">
-                <img src="@/img/spotify-logo.png" alt="">
+            <div class="row">
+                <div class="col-2 py-3">
+                    <img src="@/img/spotify-logo.png" alt="">
+                </div>
             </div>
         </div>
     </header>
