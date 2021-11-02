@@ -6,8 +6,7 @@
 
                 <div class="col-12 d-flex flex-wrap py-5">
                  
-
-                    <div v-for="(element, index) in brani" :key="index" class="card bg-dark text-light" style="width: 12rem;" >
+                    <div v-for="(element, index) in brani" :key="index" class="card bg-dark text-light mx-auto" style="width: 12rem;" >
                         <img :src="element.poster" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">{{element.title}}</h5>
@@ -15,9 +14,6 @@
                             <p class="card-text">{{element.year}}</p>
                         </div>
                     </div>
-
-                    
-
 
                 </div>
             </div>
